@@ -1,4 +1,16 @@
-GET http://localhost:3000 HTTP/1.1
+GET http://localhost:8080/contacts
+
+###
+GET http://localhost:8080/contacts/644c8c9092aa5b5db575347e
+
+###
+GET http://localhost:8080/contacts/644c8d4992aa5b5db575347f
+
+###
+GET http://localhost:8080/contacts/644c8da292aa5b5db5753480
 
 ###
 GET https://codfish81-cse341.onrender.com HTTP/1.1
+
+###
+GET https://

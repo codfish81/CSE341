@@ -1,0 +1,23 @@
+{
+    "contact1": {
+        "firstName": "Breanna",
+        "lastName": "Hansen",
+        "email": "BreannaHansen@gmail.com",
+        "favoriteColor": "Blue ",
+        "birthday": "07/27/1990"
+    },
+    "contact2": {
+        "firstName": "Aleah",
+        "lastName": "Hansen",
+        "email": "AleahHansen@gmail.com",
+        "favoriteColor": "Green ",
+        "birthday": "10/14/2012"
+    },
+    "contact3": {
+        "firstName": "Sadie",
+        "lastName": "Hansen",
+        "email": "SadieHansen@gmail.com",
+        "favoriteColor": "Blue ",
+        "birthday": "02/10/2017"
+    }
+}
