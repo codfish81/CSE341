@@ -19,14 +19,6 @@ const initDb = (callback) => {
     });
 };
 
-async function start(){
-  await client.connect()
-  console.log("Connected")
-  module.exports = client.db()
-  const app = require('./app')
-  app.listen(3000)
-};
-
 const getDb = () => {
   if (!_db) {
     throw Error('Db not initialized');
@@ -37,5 +29,4 @@ const getDb = () => {
 module.exports = {
   initDb,
   getDb,
-  start
 };
