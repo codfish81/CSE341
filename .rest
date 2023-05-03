@@ -10,7 +10,31 @@ GET http://localhost:8080/contacts/644c8d4992aa5b5db575347f
 GET http://localhost:8080/contacts/644c8da292aa5b5db5753480
 
 ###
-GET https://codfish81-cse341.onrender.com HTTP/1.1
+POST http://localhost:8080/contacts HTTP/1.1
+contact-type: application.json
+
+{
+    "firstName": "Anders",
+    "lastName": "Hansen",
+    "email": "AndersHansen@gmail.com",
+    "favoriteColor": "Blue ",
+    "birthday": "04/27/2020"
+}
+
+###
+PUT http://localhost:8080/contacts/644c8c9092aa5b5db575347e HTTP/1.1
+contact-type: application.json
+
+{
+    "firstName": "Breanna",
+    "lastName": "Hansen",
+    "email": "BreannaHansen@gmail.com",
+    "favoriteColor": "Purple",
+    "birthday": "07/27/1990"
+}
+
+###
+DELETE  http://localhost:8080/contacts/644c8d4992aa5b5db575347f
 
 ###
 GET https://
