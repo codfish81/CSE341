@@ -11,7 +11,7 @@ GET http://localhost:8080/contacts/644c8da292aa5b5db5753480
 
 ###
 POST http://localhost:8080/contacts HTTP/1.1
-contact-type: application.json
+contact-type: application/json
 
 {
     "firstName": "Anders",
@@ -23,7 +23,7 @@ contact-type: application.json
 
 ###
 PUT http://localhost:8080/contacts/644c8c9092aa5b5db575347e HTTP/1.1
-contact-type: application.json
+contact-type: application/json
 
 {
     "firstName": "Breanna",
@@ -34,7 +34,7 @@ contact-type: application.json
 }
 
 ###
-DELETE  http://localhost:8080/contacts/644c8d4992aa5b5db575347f
+DELETE  http://localhost:8080/contacts/645727f1d1058177a4889a2b HTTP/1.1
 
 ###
 GET https://
