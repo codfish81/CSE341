@@ -34,7 +34,37 @@ contact-type: application/json
 }
 
 ###
-DELETE  http://localhost:8080/contacts/645733ffa53268193534c769 HTTP/1.1
+DELETE  http://localhost:8080/contacts/645db3cda80ced4cce6a16fa HTTP/1.1
 
 ###
-GET https://
+GET https://week2-26b1.onrender.com/contacts
+
+###
+GET https://week2-26b1.onrender.com/contacts/645daf5ca80ced4cce6a16f9
+
+###
+PUT  https://week2-26b1.onrender.com/contacts/645daf5ca80ced4cce6a16f9
+content-type: application/json
+
+{
+    "firstName": "Breanna",
+    "lastName": "Hansen",
+    "email": "BreannaHansen@gmail.com",
+    "favoriteColor": "Purple",
+    "birthday": "07/27/1990"
+}
+
+###
+POST  https://week2-26b1.onrender.com/contacts
+content-type: application/json
+
+{
+    "firstName": "Anders",
+    "lastName": "Hansen",
+    "email": "AndersHansen@gmail.com",
+    "favoriteColor": "Blue",
+    "birthday": "04/27/2020"
+}
+
+###
+DELETE  https://week2-26b1.onrender.com/contacts/645dba37e5862d1e6f7fdea1
