@@ -50,7 +50,7 @@ content-type: application/json
     "firstName": "Breanna",
     "lastName": "Hansen",
     "email": "BreannaHansen@gmail.com",
-    "favoriteColor": "Purple",
+    "favoriteColor": "Turquoise",
     "birthday": "07/27/1990"
 }
 
