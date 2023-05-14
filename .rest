@@ -59,11 +59,11 @@ POST  https://week2-26b1.onrender.com/contacts
 content-type: application/json
 
 {
-    "firstName": "Anders",
+    "firstName": "Everly",
     "lastName": "Hansen",
-    "email": "AndersHansen@gmail.com",
-    "favoriteColor": "Blue",
-    "birthday": "04/27/2020"
+    "email": "EverlyHansen@gmail.com",
+    "favoriteColor": "Pink",
+    "birthday": "01/25/2022"
 }
 
 ###
