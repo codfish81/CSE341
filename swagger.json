@@ -8,7 +8,7 @@
   "host": "week2-26b1.onrender.com",
   "basePath": "/",
   "schemes": [
-    "http"
+    "https"
   ],
   "paths": {
     "/api-docs": {
