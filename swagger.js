@@ -6,7 +6,7 @@ const doc = {
     description: 'Contacts API',
   },
   //host: 'localhost:8080',
-  host: 'https://week2-26b1.onrender.com',
+  host: 'week2-26b1.onrender.com',
   schemes: ['http'],
 };
 
